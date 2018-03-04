@@ -16,3 +16,482 @@
 > pm2-runtime ./bin/www --name='authentication' --watch -output ./logs/authentication-out.log -error ./logs/authentication-err.log
 
 [2018-03-04 00:23:31] PM2 log: Launching in no daemon mode
+
+> journai-authentication@0.0.0 start /home/Journai/journai-authentication
+> pm2-runtime ./bin/www --name='authentication' --watch -output ./logs/authentication-out.log -error ./logs/authentication-err.log
+
+[WARN] PM2 Daemon is already running
+
+> journai-authentication@0.0.0 start /home/Journai/journai-authentication
+> pm2-runtime ./bin/www --name='authentication' --watch -output ./logs/authentication-out.log -error ./logs/authentication-err.log
+
+[WARN] PM2 Daemon is already running
+Script already launched
+
+> journai-authentication@0.0.0 start /home/Journai/journai-authentication
+> pm2-runtime ./bin/www --name='authentication' --watch -output ./logs/authentication-out.log -error ./logs/authentication-err.log
+
+[2018-03-04 00:30:26] PM2 log: Launching in no daemon mode
+[2018-03-04 00:30:26] PM2 log: [Watch] Start watching authentication
+[2018-03-04 00:30:26] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:30:26] PM2 log: App name:authentication id:0 online
+
+> journai-authentication@0.0.0 start /home/Journai/journai-authentication
+> pm2-runtime ./bin/www --name='authentication' --watch -output ./logs/authentication-out.log -error ./logs/authentication-err.log
+
+[2018-03-04 00:30:30] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:30:30] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:30:30] PM2 log: App [authentication] with id [0] and pid [179], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:30:30] PM2 log: pid=179 msg=process killed
+[2018-03-04 00:30:30] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:30:30] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:30:30] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:30:30] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:30:30] PM2 error: Cancelling versioning data parsing
+[2018-03-04 00:30:30] PM2 log: App [authentication] with id [0] and pid [238], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:30:30] PM2 log: 0 application online, exiting
+[2018-03-04 00:30:30] PM2 log: [Watch] Stop watching authentication
+[2018-03-04 00:30:30] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:30:30] PM2 error: app=authentication id=0 does not have a pid
+[2018-03-04 00:30:30] PM2 log: pid=238 msg=process killed
+[2018-03-04 00:30:30] PM2 error: [RestartProcessId] PM2 is being killed, stopping restart procedure...
+[2018-03-04 00:30:30] PM2 error: Trace: Error: [RestartProcessId] PM2 is being killed, stopping restart procedure...
+    at Object.God.logAndGenerateError (/usr/local/lib/node_modules/pm2/lib/God/Methods.js:41:12)
+    at /usr/local/lib/node_modules/pm2/lib/God/ActionMethods.js:386:25
+    at /usr/local/lib/node_modules/pm2/lib/God/ActionMethods.js:312:14
+    at Timeout.<anonymous> (/usr/local/lib/node_modules/pm2/lib/God/Methods.js:168:16)
+    at ontimeout (timers.js:460:11)
+    at tryOnTimeout (timers.js:298:5)
+    at Timer.listOnTimeout (timers.js:261:5)
+    at Object.God.logAndGenerateError (/usr/local/lib/node_modules/pm2/lib/God/Methods.js:36:15)
+    at /usr/local/lib/node_modules/pm2/lib/God/ActionMethods.js:424:30
+    at /usr/local/lib/node_modules/pm2/node_modules/async/dist/async.js:473:16
+    at iterateeCallback (/usr/local/lib/node_modules/pm2/node_modules/async/dist/async.js:976:17)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/dist/async.js:958:16
+    at /usr/local/lib/node_modules/pm2/lib/God/ActionMethods.js:386:18
+    at /usr/local/lib/node_modules/pm2/lib/God/ActionMethods.js:312:14
+    at Timeout.<anonymous> (/usr/local/lib/node_modules/pm2/lib/God/Methods.js:168:16)
+    at ontimeout (timers.js:460:11)
+    at tryOnTimeout (timers.js:298:5)
+[2018-03-04 00:30:30] PM2 log: PM2 successfully stopped
+[2018-03-04 00:30:31] PM2 log: Launching in no daemon mode
+[2018-03-04 00:30:31] PM2 log: [Watch] Start watching authentication
+[2018-03-04 00:30:31] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:30:31] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:30:46] PM2 log: [Watch] Stop watching authentication
+[2018-03-04 00:30:46] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:30:46] PM2 log: App [authentication] with id [0] and pid [249], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:30:47] PM2 log: pid=249 msg=process killed
+[2018-03-04 00:30:47] PM2 log: 0 application online, exiting
+0 application online, exiting
+[2018-03-04 00:30:47] PM2 log: PM2 successfully stopped
+
+> journai-authentication@0.0.0 start /home/Journai/journai-authentication
+> pm2-runtime ./bin/www --name='authentication' --watch -output ./logs/authentication-out.log -error ./logs/authentication-err.log
+
+[2018-03-04 00:30:51] PM2 log: Launching in no daemon mode
+[2018-03-04 00:30:52] PM2 log: [Watch] Start watching authentication
+[2018-03-04 00:30:52] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:30:52] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:17] PM2 log: [Watch] Start watching frontend
+[2018-03-04 00:31:17] PM2 log: Starting execution sequence in -fork mode- for app name:frontend id:1
+[2018-03-04 00:31:17] PM2 log: App name:frontend id:1 online
+[2018-03-04 00:31:17] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:17] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:17] PM2 log: App [authentication] with id [0] and pid [325], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:17] PM2 log: pid=325 msg=process killed
+[2018-03-04 00:31:17] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:17] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:17] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:17] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:17] PM2 error: Cancelling versioning data parsing
+[2018-03-04 00:31:17] PM2 log: App [authentication] with id [0] and pid [394], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:18] PM2 log: pid=394 msg=process killed
+[2018-03-04 00:31:18] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:18] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:18] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:18] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:18] PM2 log: App [authentication] with id [0] and pid [407], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:18] PM2 log: pid=407 msg=process killed
+[2018-03-04 00:31:18] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:18] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:18] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:18] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:18] PM2 log: App [authentication] with id [0] and pid [416], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:18] PM2 log: pid=416 msg=process killed
+[2018-03-04 00:31:18] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:18] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:18] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:18] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:18] PM2 log: App [authentication] with id [0] and pid [427], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:18] PM2 log: pid=427 msg=process killed
+[2018-03-04 00:31:18] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:18] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:18] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:18] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:18] PM2 log: App [authentication] with id [0] and pid [438], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:18] PM2 log: pid=438 msg=process killed
+[2018-03-04 00:31:18] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:18] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:18] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:18] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:18] PM2 log: App [authentication] with id [0] and pid [446], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:18] PM2 log: pid=446 msg=process killed
+[2018-03-04 00:31:18] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:18] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:18] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:18] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:18] PM2 log: App [authentication] with id [0] and pid [453], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:18] PM2 log: pid=453 msg=process killed
+[2018-03-04 00:31:18] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:18] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:18] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:18] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:18] PM2 log: App [authentication] with id [0] and pid [460], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:19] PM2 log: pid=460 msg=process killed
+[2018-03-04 00:31:19] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:19] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:19] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:19] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:19] PM2 log: App [authentication] with id [0] and pid [467], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:19] PM2 log: pid=467 msg=process killed
+[2018-03-04 00:31:19] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:19] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:19] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:19] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:19] PM2 log: App [authentication] with id [0] and pid [474], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:19] PM2 log: pid=474 msg=process killed
+[2018-03-04 00:31:19] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:19] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:19] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:19] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:19] PM2 log: App [authentication] with id [0] and pid [481], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:19] PM2 log: pid=481 msg=process killed
+[2018-03-04 00:31:19] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:19] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:19] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:19] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:19] PM2 log: App [authentication] with id [0] and pid [488], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:19] PM2 log: pid=488 msg=process killed
+[2018-03-04 00:31:19] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:19] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:19] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:19] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:19] PM2 log: App [authentication] with id [0] and pid [495], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:19] PM2 log: pid=495 msg=process killed
+[2018-03-04 00:31:19] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:19] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:19] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:19] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:19] PM2 log: App [authentication] with id [0] and pid [502], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:19] PM2 log: pid=502 msg=process killed
+[2018-03-04 00:31:19] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:19] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:19] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:19] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:19] PM2 log: App [authentication] with id [0] and pid [509], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:20] PM2 log: pid=509 msg=process killed
+[2018-03-04 00:31:20] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:20] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:20] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:20] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:20] PM2 log: App [authentication] with id [0] and pid [522], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:20] PM2 log: pid=522 msg=process killed
+[2018-03-04 00:31:20] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:20] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:20] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:20] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:20] PM2 log: App [authentication] with id [0] and pid [529], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:20] PM2 log: pid=529 msg=process killed
+[2018-03-04 00:31:20] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:20] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:20] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:20] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:20] PM2 log: App [authentication] with id [0] and pid [540], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:20] PM2 log: pid=540 msg=process killed
+[2018-03-04 00:31:20] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:20] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:20] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:20] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:20] PM2 log: App [authentication] with id [0] and pid [547], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:20] PM2 log: pid=547 msg=process killed
+[2018-03-04 00:31:20] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:20] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:20] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:20] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:20] PM2 log: App [authentication] with id [0] and pid [554], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:20] PM2 log: pid=554 msg=process killed
+[2018-03-04 00:31:20] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:20] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:20] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:20] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:20] PM2 log: App [authentication] with id [0] and pid [561], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:20] PM2 log: pid=561 msg=process killed
+[2018-03-04 00:31:20] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:20] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:20] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:20] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:20] PM2 log: App [authentication] with id [0] and pid [568], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:21] PM2 log: pid=568 msg=process killed
+[2018-03-04 00:31:21] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:21] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:21] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:21] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:21] PM2 log: App [authentication] with id [0] and pid [575], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:21] PM2 log: pid=575 msg=process killed
+[2018-03-04 00:31:21] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:21] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:21] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:21] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:21] PM2 log: App [authentication] with id [0] and pid [582], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:21] PM2 log: pid=582 msg=process killed
+[2018-03-04 00:31:21] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:21] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:21] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:21] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:21] PM2 log: App [authentication] with id [0] and pid [588], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:21] PM2 log: pid=588 msg=process killed
+[2018-03-04 00:31:21] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:21] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:21] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:21] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:21] PM2 log: App [authentication] with id [0] and pid [595], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:21] PM2 log: pid=595 msg=process killed
+[2018-03-04 00:31:21] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:21] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:21] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:21] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:21] PM2 log: App [authentication] with id [0] and pid [602], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:22] PM2 log: pid=602 msg=process killed
+[2018-03-04 00:31:22] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:22] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:22] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:22] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:22] PM2 log: App [authentication] with id [0] and pid [609], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:22] PM2 log: pid=609 msg=process killed
+[2018-03-04 00:31:22] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:22] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:22] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:22] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:22] PM2 log: App [authentication] with id [0] and pid [616], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:22] PM2 log: pid=616 msg=process killed
+[2018-03-04 00:31:22] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:22] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:22] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:22] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:22] PM2 log: App [authentication] with id [0] and pid [623], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:22] PM2 log: pid=623 msg=process killed
+[2018-03-04 00:31:22] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:22] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:22] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:22] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:22] PM2 log: App [authentication] with id [0] and pid [634], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:22] PM2 log: pid=634 msg=process killed
+[2018-03-04 00:31:22] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:22] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:22] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:22] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:22] PM2 log: App [authentication] with id [0] and pid [643], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:22] PM2 log: pid=643 msg=process killed
+[2018-03-04 00:31:22] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:22] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:22] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:22] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:22] PM2 log: App [authentication] with id [0] and pid [652], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:22] PM2 log: pid=652 msg=process killed
+[2018-03-04 00:31:22] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:22] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:22] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:22] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:23] PM2 log: App [authentication] with id [0] and pid [663], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:23] PM2 log: pid=663 msg=process killed
+[2018-03-04 00:31:23] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:23] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:23] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:23] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:23] PM2 log: App [authentication] with id [0] and pid [676], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:23] PM2 log: pid=676 msg=process killed
+[2018-03-04 00:31:23] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:23] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:23] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:23] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:23] PM2 log: App [authentication] with id [0] and pid [683], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:23] PM2 log: pid=683 msg=process killed
+[2018-03-04 00:31:23] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:23] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:23] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:23] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:23] PM2 log: App [authentication] with id [0] and pid [690], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:23] PM2 log: pid=690 msg=process killed
+[2018-03-04 00:31:23] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:23] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:23] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:23] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:23] PM2 log: App [authentication] with id [0] and pid [697], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:23] PM2 log: pid=697 msg=process killed
+[2018-03-04 00:31:23] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:23] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:23] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:23] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:23] PM2 log: App [authentication] with id [0] and pid [704], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:23] PM2 log: pid=704 msg=process killed
+[2018-03-04 00:31:23] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:23] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:23] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:23] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:23] PM2 log: App [authentication] with id [0] and pid [711], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:23] PM2 log: pid=711 msg=process killed
+[2018-03-04 00:31:23] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:23] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:23] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:23] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:23] PM2 log: App [authentication] with id [0] and pid [718], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:24] PM2 log: pid=718 msg=process killed
+[2018-03-04 00:31:24] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:24] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:24] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:24] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:24] PM2 log: App [authentication] with id [0] and pid [725], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:24] PM2 log: pid=725 msg=process killed
+[2018-03-04 00:31:24] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:24] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:24] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:24] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:24] PM2 log: App [authentication] with id [0] and pid [732], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:24] PM2 log: pid=732 msg=process killed
+[2018-03-04 00:31:24] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:24] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:24] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:24] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:24] PM2 log: App [authentication] with id [0] and pid [739], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:24] PM2 log: pid=739 msg=process killed
+[2018-03-04 00:31:24] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:24] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:24] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:24] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:24] PM2 log: App [authentication] with id [0] and pid [746], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:24] PM2 log: pid=746 msg=process killed
+[2018-03-04 00:31:24] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:24] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:24] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:24] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:24] PM2 log: App [authentication] with id [0] and pid [753], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:24] PM2 log: pid=753 msg=process killed
+[2018-03-04 00:31:24] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:24] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:24] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:24] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:24] PM2 log: App [authentication] with id [0] and pid [760], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:24] PM2 log: pid=760 msg=process killed
+[2018-03-04 00:31:24] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:24] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:24] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:24] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:24] PM2 log: App [authentication] with id [0] and pid [767], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:25] PM2 log: pid=767 msg=process killed
+[2018-03-04 00:31:25] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:25] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:25] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:25] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:25] PM2 log: App [authentication] with id [0] and pid [774], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:25] PM2 log: pid=774 msg=process killed
+[2018-03-04 00:31:25] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:25] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:25] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:25] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:25] PM2 log: App [authentication] with id [0] and pid [781], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:25] PM2 log: pid=781 msg=process killed
+[2018-03-04 00:31:25] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:25] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:25] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:25] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:25] PM2 log: App [authentication] with id [0] and pid [788], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:25] PM2 log: pid=788 msg=process killed
+[2018-03-04 00:31:25] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:25] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:25] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:25] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:25] PM2 log: App [authentication] with id [0] and pid [795], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:25] PM2 log: pid=795 msg=process killed
+[2018-03-04 00:31:25] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:25] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:25] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:25] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:25] PM2 log: App [authentication] with id [0] and pid [802], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:25] PM2 log: pid=802 msg=process killed
+[2018-03-04 00:31:25] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:25] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:25] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:25] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:25] PM2 log: App [authentication] with id [0] and pid [809], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:25] PM2 log: pid=809 msg=process killed
+[2018-03-04 00:31:25] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:25] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:25] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:25] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:25] PM2 log: App [authentication] with id [0] and pid [816], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:26] PM2 log: pid=816 msg=process killed
+[2018-03-04 00:31:26] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:26] PM2 log: App name:authentication id:0 online
+[2018-03-04 00:31:26] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:26] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:26] PM2 log: App [authentication] with id [0] and pid [823], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:26] PM2 log: pid=823 msg=process killed
+[2018-03-04 00:31:26] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
+[2018-03-04 00:31:26] PM2 log: App name:authentication id:0 online
+[0mGET / [32m200 [0m1913.595 ms - 177[0m
+[2018-03-04 00:31:26] PM2 error: Change detected on path nohup.out for app authentication - restarting
+[2018-03-04 00:31:26] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:26] PM2 error: Change detected on path nohup.out for app frontend - restarting
+[2018-03-04 00:31:26] PM2 log: Stopping app:frontend id:1
+[0mGET /stylesheets/style.css [32m200 [0m12.044 ms - 111[0m
+[2018-03-04 00:31:26] PM2 log: 0 application online, exiting
+[2018-03-04 00:31:26] PM2 log: App [frontend] with id [1] and pid [383], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:26] PM2 log: App [authentication] with id [0] and pid [830], exited with code [0] via signal [SIGINT]
+[2018-03-04 00:31:26] PM2 log: [Watch] Stop watching authentication
+[2018-03-04 00:31:26] PM2 log: Stopping app:authentication id:0
+[2018-03-04 00:31:26] PM2 error: app=authentication id=0 does not have a pid
+[2018-03-04 00:31:26] PM2 log: [Watch] Stop watching frontend
+[2018-03-04 00:31:26] PM2 log: Stopping app:frontend id:1
+[2018-03-04 00:31:26] PM2 error: app=frontend id=1 does not have a pid
+[2018-03-04 00:31:26] PM2 log: pid=830 msg=process killed
+[2018-03-04 00:31:26] PM2 error: [RestartProcessId] PM2 is being killed, stopping restart procedure...
+[2018-03-04 00:31:26] PM2 error: Trace: Error: [RestartProcessId] PM2 is being killed, stopping restart procedure...
+    at Object.God.logAndGenerateError (/usr/local/lib/node_modules/pm2/lib/God/Methods.js:41:12)
+    at /usr/local/lib/node_modules/pm2/lib/God/ActionMethods.js:386:25
+    at /usr/local/lib/node_modules/pm2/lib/God/ActionMethods.js:312:14
+    at Timeout.<anonymous> (/usr/local/lib/node_modules/pm2/lib/God/Methods.js:168:16)
+    at ontimeout (timers.js:460:11)
+    at tryOnTimeout (timers.js:298:5)
+    at Timer.listOnTimeout (timers.js:261:5)
+    at Object.God.logAndGenerateError (/usr/local/lib/node_modules/pm2/lib/God/Methods.js:36:15)
+    at /usr/local/lib/node_modules/pm2/lib/God/ActionMethods.js:424:30
+    at /usr/local/lib/node_modules/pm2/node_modules/async/dist/async.js:473:16
+    at iterateeCallback (/usr/local/lib/node_modules/pm2/node_modules/async/dist/async.js:976:17)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/dist/async.js:958:16
+    at /usr/local/lib/node_modules/pm2/lib/God/ActionMethods.js:386:18
+    at /usr/local/lib/node_modules/pm2/lib/God/ActionMethods.js:312:14
+    at Timeout.<anonymous> (/usr/local/lib/node_modules/pm2/lib/God/Methods.js:168:16)
+    at ontimeout (timers.js:460:11)
+    at tryOnTimeout (timers.js:298:5)
+[2018-03-04 00:31:26] PM2 log: pid=383 msg=process killed
+[2018-03-04 00:31:26] PM2 error: [RestartProcessId] PM2 is being killed, stopping restart procedure...
+[2018-03-04 00:31:26] PM2 error: Trace: Error: [RestartProcessId] PM2 is being killed, stopping restart procedure...
+    at Object.God.logAndGenerateError (/usr/local/lib/node_modules/pm2/lib/God/Methods.js:41:12)
+    at /usr/local/lib/node_modules/pm2/lib/God/ActionMethods.js:386:25
+    at /usr/local/lib/node_modules/pm2/lib/God/ActionMethods.js:312:14
+    at Timeout.<anonymous> (/usr/local/lib/node_modules/pm2/lib/God/Methods.js:168:16)
+    at ontimeout (timers.js:460:11)
+    at tryOnTimeout (timers.js:298:5)
+    at Timer.listOnTimeout (timers.js:261:5)
+    at Object.God.logAndGenerateError (/usr/local/lib/node_modules/pm2/lib/God/Methods.js:36:15)
+    at /usr/local/lib/node_modules/pm2/lib/God/ActionMethods.js:424:30
+    at /usr/local/lib/node_modules/pm2/node_modules/async/dist/async.js:473:16
+    at iterateeCallback (/usr/local/lib/node_modules/pm2/node_modules/async/dist/async.js:976:17)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/dist/async.js:958:16
+    at /usr/local/lib/node_modules/pm2/lib/God/ActionMethods.js:386:18
+    at /usr/local/lib/node_modules/pm2/lib/God/ActionMethods.js:312:14
+    at Timeout.<anonymous> (/usr/local/lib/node_modules/pm2/lib/God/Methods.js:168:16)
+    at ontimeout (timers.js:460:11)
+    at tryOnTimeout (timers.js:298:5)
+[2018-03-04 00:31:26] PM2 log: PM2 successfully stopped
