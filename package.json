@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "pm2-runtime ./bin/www --name='authentication' --watch -o ./logs/authentication-out.log -e ./logs/authentication-err.log"
+    "start": "pm2-runtime ./bin/www --name='authentication' --watch -output ./logs/authentication-out.log -error ./logs/authentication-err.log"
   },
   "dependencies": {
     "body-parser": "~1.18.2",
