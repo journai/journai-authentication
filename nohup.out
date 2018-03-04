@@ -11,3 +11,8 @@
 [2018-03-04 00:22:36] PM2 log: [Watch] Start watching authentication
 [2018-03-04 00:22:36] PM2 log: Starting execution sequence in -fork mode- for app name:authentication id:0
 [2018-03-04 00:22:36] PM2 log: App name:authentication id:0 online
+
+> journai-authentication@0.0.0 start /home/Journai/journai-authentication
+> pm2-runtime ./bin/www --name='authentication' --watch -output ./logs/authentication-out.log -error ./logs/authentication-err.log
+
+[2018-03-04 00:23:31] PM2 log: Launching in no daemon mode
