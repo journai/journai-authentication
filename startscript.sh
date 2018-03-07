@@ -1,2 +1,2 @@
 npm install
-nodemon -L app.js
+nodemon -L ./bin/www
